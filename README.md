@@ -7,12 +7,13 @@ Reference implementation for the CEDEC 2026 talk *"New Developments in Spherical
 > **注意 / Disclaimer**
 > 本コードは教育・研究目的の参照実装です．可読性を優先しており，最適化・エラー処理は最小限です．
 > 動作の正確性を保証せず，使用により生じたいかなる損害についても責任を負いません．
-> This is an educational reference implementation. Correctness is not guaranteed and the authors accept no liability for any damages arising from its use.
+> 本コードは講演内容の確定にあわせて随時更新し，今後加筆・修正していく予定です．
+> This is an educational reference implementation. 
+> Correctness is not guaranteed and the authors accept no liability for any damages arising from its use.
+> This document is a work in progress and will be updated as the talk is finalized.
 
 ---
-
 ## 概要 / Overview
-
 本リポジトリは，講演で扱う以下の処理の C++ 実装を提供します．
 
 - 球面調和関数(SH)係数の**回転**
@@ -27,20 +28,18 @@ Reference implementation for the CEDEC 2026 talk *"New Developments in Spherical
 
 | 項目 | 本実装での規約 |
 |---|---|
-| 次数 / degree | `l`(バンド、`0` から `L_MAX`) |
+| 次数 / degree | `l`(バンド`0` から `L-1`) |
 | 位数 / order | `m`(`-l` から `+l`) |
-| 実数/複素数 SH | <!-- 実数SH / 複素SH --> |
-| 正規化 | <!-- orthonormal など --> |
-| 係数の格納順 | <!-- index = l*(l+1)+m など --> |
-| 座標系 | <!-- 右手系 / 左手系、Y-up など --> |
+| 実数/複素数 SH | 実数SHのみ|
+| 係数の格納順 | `index = l * l + m` |
+| 座標系 | 右手系・Z-Up |
 
 ---
 
 ## 動作環境 / Requirements
 
-- C++20 以降
-- CMake 3.16 以降
-- 外部依存なし(ヘッダオンリー)
+- C++23 以降
+- CMake 3.24 以降
 
 <!-- 依存を追加した場合はここに明記 -->
 
@@ -57,7 +56,7 @@ cmake --build build
 ## 使い方 / Usage
 
 ```cpp
-#include <sh/spherical_harmonics.hpp>
+#include"vcl/sh.hpp"
 
 // TODO: 最小の使用例(10行以内)
 ```
@@ -86,7 +85,7 @@ tests/           数値検証テスト
 
 - **タイトル**: 球面調和関数の新展開 — 回転・積分・勾配計算の最新技術 —
 - **会場・日時**: CEDEC 2026 <!-- 日時・セッション番号 -->
-- **スライド**: <!-- 公開後にURLを記載 -->
+- **スライド**: TBD <!-- 公開後にURLを記載 -->
 
 ## 参考文献 / References
 
@@ -110,7 +109,7 @@ tests/           数値検証テスト
 MIT License. 詳細は [LICENSE](LICENSE) を参照してください．
 
 ## 研究室について / About Us
-
+- [Visual Computing 研究室](https://https://visualcomputing-lab.github.io/)
 <!-- 研究室名・大学名・研究室サイトへのリンク・連絡先 -->
 
 本実装に関するご指摘・ご質問は [Issues](https://github.com/vclsu/spherical-harmonics-cedec2026/issues) へお願いします．
