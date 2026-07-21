@@ -89,9 +89,9 @@ tests/           数値検証テスト
 
 ## 参考文献 / References
 
-
-
 - P.-P. Sloan, *Stupid Spherical Harmonics (SH) Tricks*, GDC 2008.
+- K. Iwasaki, Y. Dobashi, [Spherical Lighting with Spherical Harmonics Hessian](https://dl.acm.org/doi/10.1145/3721238.3730689), 
+  SIGGRAPH 2025, pp. 33:1--33.10, 2025.
 
 ## 引用 / Citation
 
@@ -102,6 +102,23 @@ tests/           数値検証テスト
   year         = {2026},
   howpublished = {\url{https://github.com/vclsu/spherical-harmonics-cedec2026}}
 }
+
+@inproceedings{10.1145/3721238.3730689,
+author = {Iwasaki, Kei and Dobashi, Yoshinori},
+title = {Spherical Lighting with Spherical Harmonics Hessian},
+year = {2025},
+isbn = {9798400715402},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3721238.3730689},
+doi = {10.1145/3721238.3730689},
+booktitle = {Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Conference Papers},
+articleno = {33},
+numpages = {10},
+keywords = {Spherical Harmonics, Solid Spherical Harmonics, Spherical Harmonics Hessian, Spherical Light},
+series = {SIGGRAPH Conference Papers '25}
+}
+
 ```
 
 ## ライセンス / License
@@ -112,7 +129,7 @@ MIT License. 詳細は [LICENSE](LICENSE) を参照してください．
 - [Visual Computing 研究室](https://https://visualcomputing-lab.github.io/)
 <!-- 研究室名・大学名・研究室サイトへのリンク・連絡先 -->
 
-本実装に関するご指摘・ご質問は [Issues](https://github.com/vclsu/spherical-harmonics-cedec2026/issues) へお願いします．
+- 本実装に関するご指摘・ご質問は [Issues](https://github.com/vclsu/spherical-harmonics-cedec2026/issues) へお願いします．
 
 
 
