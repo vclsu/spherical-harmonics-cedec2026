@@ -96,13 +96,12 @@ tests/           数値検証テスト
 ## 引用 / Citation
 
 ```bibtex
-@misc{vclsu_sh_cedec2026,
+<!-- @misc{vclsu_sh_cedec2026,
   author       = {<!-- 著者名 -->},
   title        = {spherical-harmonics-cedec2026: Reference implementation for CEDEC 2026},
   year         = {2026},
   howpublished = {\url{https://github.com/vclsu/spherical-harmonics-cedec2026}}
-}
-
+} -->
 @inproceedings{10.1145/3721238.3730689,
 author = {Iwasaki, Kei and Dobashi, Yoshinori},
 title = {Spherical Lighting with Spherical Harmonics Hessian},
