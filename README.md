@@ -2,12 +2,12 @@
 
 CEDEC 2026 講演「球面調和関数の新展開 — 回転・積分・勾配計算の最新技術 —」の参照実装です．
 
-Reference implementation for the CEDEC 2026 talk *"New Developments in Spherical Harmonics: Rotation, Integration, and Gradient Computation"*.
+Reference implementation for the CEDEC 2026 talk *"Recent Advancements in Spherical Harmonics: Rotation, Integration, and Gradient Computation"*.
 
 > **注意 / Disclaimer**
 > 本コードは教育・研究目的の参照実装です．可読性を優先しており，最適化・エラー処理は最小限です．
 > 動作の正確性を保証せず，使用により生じたいかなる損害についても責任を負いません．
-> 本コードは講演内容の確定にあわせて随時更新し，今後加筆・修正していく予定です．
+> 本コードは講演内容の確定にあわせて随時更新し，今後加筆・修正していく予定です．  
 > This is an educational reference implementation. 
 > Correctness is not guaranteed and the authors accept no liability for any damages arising from its use.
 > This document is a work in progress and will be updated as the talk is finalized.
