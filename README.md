@@ -90,6 +90,7 @@ tests/           数値検証テスト
 ## 参考文献 / References
 
 - P.-P. Sloan, *Stupid Spherical Harmonics (SH) Tricks*, GDC 2008.
+- L. Belcour, G. Xie, C. Hery, M. Meyer, W. Jarosz, D. Nowrouzezahrai. 2018. [Integrating Clipped Spherical Harmonics Expansions](https://doi.org/10.1145/3015459), ACM Trans. Graph. Vol. 37, No. 2, pp. 19:1--19:12, 2018.
 - K. Iwasaki, Y. Dobashi, [Spherical Lighting with Spherical Harmonics Hessian](https://dl.acm.org/doi/10.1145/3721238.3730689), 
   SIGGRAPH 2025, pp. 33:1--33.10, 2025.
 
